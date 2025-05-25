@@ -6,7 +6,7 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-    staps:
+    steps:
     -name: checks-out your repository under $GITHUB_WORKSPACE
       uses actions/checkout@v2
     -name: use echo command
