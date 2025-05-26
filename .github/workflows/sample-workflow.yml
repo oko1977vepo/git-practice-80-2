@@ -1,8 +1,8 @@
 name: sample-workflow
 on:
   schedule:
-    # UTC の 02:00 は JST だと 11:00 。
-    - cron: '50 0 * * 1'
+    # UTC の 01:00 は JST だと 10:00 。
+    - cron: '0 1 * * 1'
   push:
     branches: [develop]
 
