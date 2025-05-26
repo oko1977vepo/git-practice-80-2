@@ -1,1 +1,1 @@
-p72 local2
+p72 remote
